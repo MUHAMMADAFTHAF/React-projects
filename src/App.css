@@ -1,0 +1,75 @@
+/*Filename - App.css*/
+
+.meme {
+  position: relative;
+  width: 65%;
+  max-width: 600px;
+  max-height: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.meme > img {
+  margin: auto;
+  height: 60%;
+  max-width: 600px;
+  max-height: 500px;
+}
+
+.meme > h2 {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: rgb(231, 210, 17);
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #252525;
+}
+
+.meme > .bottom {
+  bottom: 0;
+}
+
+.meme > .top {
+  top: 0;
+}
+
+form {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.tot-container{
+  background-color: #d1cbcb;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.tot-container input{
+  padding: 10px;
+  margin: auto 5px;
+  border: 1px solid rgb(102, 32, 32);
+  border-radius: 5px;
+  
+}
+.tot-container input:hover{
+  border: 2px solid rgb(63, 202, 86) ;
+}
+.tot-container button{
+  border: 1px solid  rgb(102, 32, 32);
+  border-radius: 5px;
+  padding: 10px;
+  transition: 1s;
+}
+.tot-container button:hover{
+  border: 2px solid rgb(63, 202, 86);
+  color: white;
+  background-color: black;
+}
